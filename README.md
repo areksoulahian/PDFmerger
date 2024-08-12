@@ -11,3 +11,7 @@ used pyinstaller to make it executable
 - First, click on 'Select PDFs' and select multiple pdfs you would like to merge
 - Next, click 'Merge PDFs' and create a name for the new file
 - thats it
+
+# Future improvements
+- add encryption (password) support
+- add better GUI functionality 
