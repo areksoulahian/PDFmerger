@@ -23,5 +23,5 @@
 ```pip3 install PyPDF pillow pyinstaller```
 
 ## Create Executable (if you choose to)
-used pyinstaller to make it executable
 ```pyinstaller --onefile -w PDFmergerApp.py ```
+used pyinstaller to make it executable
