@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+myenv/
+mywinenv/
+build/
+dist/
+
+*.app/
+*.exe
+*.zip
+*.spec
+.DS_Store
+
+*.pdf.pdf
