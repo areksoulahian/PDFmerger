@@ -1,27 +1,43 @@
-# PDFmerger
-- Merges PDFs togheter and also converts jpg to pdf
+# PDF Tool
 
-![image](https://github.com/user-attachments/assets/f8a1b36c-6469-496f-97c3-df87c73f6365)
+PDF Tool is a small desktop app for combining PDFs and images into a single PDF.
 
-- First, click on 'Select PDFs' and select multiple pdfs you would like to merge
-- Next, click 'Merge PDFs' and create a name for the new file
-- thats it
+Current features:
 
-# Future improvements
-- add encryption (password) support
-- add better GUI functionality
+- Add PDF/image files from multiple folders
+- Preview selected files before merging
+- Reorder files before export
+- Rotate selected files before export
+- Convert PDF pages to a simple HTML page with images
 
-# When downloading for local machine
+## Setup
 
-## Create Virtual Environment
-```python3 -m venv myenv```
+Create a virtual environment:
 
-## Activate virtual environment
-```source myenv/bin/activate```
+```bash
+python3 -m venv myenv
+```
 
-## Download packages in virtual environment
-```pip3 install PyPDF pillow pyinstaller```
+Activate it:
 
-## Create Executable (if you choose to)
-```pyinstaller --onefile -w PDFmergerApp.py ```
-used pyinstaller to make it executable
+```bash
+source myenv/bin/activate
+```
+
+Install packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the app:
+
+```bash
+python PDF_Tool.py
+```
+
+Deactivate the virtual environment when finished:
+
+```bash
+deactivate
+```
